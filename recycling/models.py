@@ -37,7 +37,7 @@ class Product(models.Model):
     description = models.CharField(max_length=4000, blank=True)
     category = models.ForeignKey(Category, null=True, blank=True)
     code = models.PositiveIntegerField(null=True, blank=True)
-    maker = models.ForeignKey(null=True, blank=True)
+    maker = models.ForeignKey(Maker, null=True, blank=True)
     model = models.CharField(max_length=200, blank=True)
 
     def __unicode__(self):

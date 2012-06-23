@@ -124,7 +124,7 @@ INSTALLED_APPS = (
     'django.contrib.sites',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'haystack',
+    #'haystack',
     'recycling'
     # Uncomment the next line to enable admin documentation:
     # 'django.contrib.admindocs',
