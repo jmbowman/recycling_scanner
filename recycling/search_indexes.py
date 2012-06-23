@@ -9,7 +9,7 @@ class TakerIndex(indexes.SearchIndex):
     latitude = indexes.FloatField(model_attr='address__latitude', null=True)
     longitude = indexes.FloatField(model_attr='address__longitude', null=True)
 
-    def get_queryset(self):
+    def index_queryset(self):
         """Used when the entire index for model is updated."""
         return Taker.objects.all()
 
