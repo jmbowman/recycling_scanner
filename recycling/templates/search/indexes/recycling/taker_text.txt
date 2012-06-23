@@ -1,0 +1,6 @@
+{{ object.name }}
+{{ object.url }}
+{{ object.email }}
+{{ object.address.city }}
+{% for product in object.products.all %}{{ product }}{% if product.category %} ({{ product.category }}){% endif %}, {% endfor %}
+{% for category in object.categories.all %}{{ category }}, {% endfor %}

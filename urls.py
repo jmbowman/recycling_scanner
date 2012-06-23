@@ -5,6 +5,7 @@ from django.contrib import admin
 admin.autodiscover()
 
 urlpatterns = patterns('',
+    (r'^search/', include('haystack.urls')),
     # Examples:
     # url(r'^$', 'app.views.home', name='home'),
     # url(r'^app/', include('app.foo.urls')),
