@@ -19,7 +19,7 @@ class Address(models.Model):
 
 class Category(models.Model):
     name = models.CharField(max_length=200)
-    
+
     def __unicode__(self):
         return self.name
 
@@ -27,7 +27,7 @@ class Category(models.Model):
 class Maker(models.Model):
     name = models.CharField(max_length=200)
     url = models.URLField(verbose_name='URL', blank=True)
-    
+
     def __unicode__(self):
         return self.name
 
@@ -39,7 +39,7 @@ class Product(models.Model):
     code = models.PositiveIntegerField(null=True, blank=True)
     maker = models.ForeignKey(null=True, blank=True)
     model = models.CharField(max_length=200, blank=True)
-    
+
     def __unicode__(self):
         return self.name
 
@@ -51,6 +51,6 @@ class Taker(models.Model):
     email = models.EmailField(blank=True)
     categories = models.ManyToManyField(Category, blank=True)
     products = models.ManyToManyField(Product, blank=True)
-    
+
     def __unicode__(self):
         return self.name
