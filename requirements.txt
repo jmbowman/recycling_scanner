@@ -1,0 +1,7 @@
+Django>=1.4
+django-debug-toolbar
+django-haystack
+geopy
+pytz
+South
+Whoosh
