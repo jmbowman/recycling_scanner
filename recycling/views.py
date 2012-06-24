@@ -16,7 +16,6 @@ class TakerSearchView(SearchView):
         """
         Generates the actual HttpResponse to send back to the user.
         """
-        # sort results by distance here?
         (paginator, page) = self.build_page()
         results = page.object_list
         results = [{'name': o.name} for o in results]
