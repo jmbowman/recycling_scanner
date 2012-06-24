@@ -1,1 +1,322 @@
-[{"pk": 8, "model": "contenttypes.contenttype", "fields": {"model": "address", "name": "address", "app_label": "recycling"}}, {"pk": 9, "model": "contenttypes.contenttype", "fields": {"model": "category", "name": "category", "app_label": "recycling"}}, {"pk": 5, "model": "contenttypes.contenttype", "fields": {"model": "contenttype", "name": "content type", "app_label": "contenttypes"}}, {"pk": 3, "model": "contenttypes.contenttype", "fields": {"model": "group", "name": "group", "app_label": "auth"}}, {"pk": 1, "model": "contenttypes.contenttype", "fields": {"model": "logentry", "name": "log entry", "app_label": "admin"}}, {"pk": 10, "model": "contenttypes.contenttype", "fields": {"model": "maker", "name": "maker", "app_label": "recycling"}}, {"pk": 2, "model": "contenttypes.contenttype", "fields": {"model": "permission", "name": "permission", "app_label": "auth"}}, {"pk": 11, "model": "contenttypes.contenttype", "fields": {"model": "product", "name": "product", "app_label": "recycling"}}, {"pk": 6, "model": "contenttypes.contenttype", "fields": {"model": "session", "name": "session", "app_label": "sessions"}}, {"pk": 7, "model": "contenttypes.contenttype", "fields": {"model": "site", "name": "site", "app_label": "sites"}}, {"pk": 12, "model": "contenttypes.contenttype", "fields": {"model": "taker", "name": "taker", "app_label": "recycling"}}, {"pk": 4, "model": "contenttypes.contenttype", "fields": {"model": "user", "name": "user", "app_label": "auth"}}, {"pk": "542809ed52ccd531b1c8c354c54b6e08", "model": "sessions.session", "fields": {"expire_date": "2012-07-08T00:02:57.174Z", "session_data": "ZTg1NzQ3NmUxODhjMWI5ODY0NDM5NzFkMTgxZjQ5ZWYyZWE0ODBmOTqAAn1xAShVEl9hdXRoX3Vz\nZXJfYmFja2VuZHECVSlkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZHED\nVQ1fYXV0aF91c2VyX2lkcQRLAXUu\n"}}, {"pk": "00432863179e58f040ca0e08bff82ea9", "model": "sessions.session", "fields": {"expire_date": "2012-07-08T02:49:23.180Z", "session_data": "NmI2MDE1ZjI5MjdkOTI5OTViMGE3MTVhZWNhYTc2Mjc5NWY0MTFkMDqAAn1xAShVCV9tZXNzYWdl\nc11xAihjZGphbmdvLmNvbnRyaWIubWVzc2FnZXMuc3RvcmFnZS5iYXNlCk1lc3NhZ2UKcQMpgXEE\nfXEFKFUKZXh0cmFfdGFnc3EGWAAAAABVB21lc3NhZ2VxB1hbAAAAVGhlIGNhdGVnb3J5ICJEZXNr\ndG9wIENvbXB1dGVyIiB3YXMgYWRkZWQgc3VjY2Vzc2Z1bGx5LiBZb3UgbWF5IGFkZCBhbm90aGVy\nIGNhdGVnb3J5IGJlbG93LlUFbGV2ZWxxCEsUdWJoAymBcQl9cQooaAZYAAAAAGgHWEcAAABUaGUg\nbWFrZXIgIkhQIiB3YXMgYWRkZWQgc3VjY2Vzc2Z1bGx5LiBZb3UgbWF5IGFkZCBhbm90aGVyIG1h\na2VyIGJlbG93LmgISxR1YmgDKYFxC31xDChoBlgAAAAAaAdYSwAAAFRoZSBtYWtlciAiTGVub3Zv\nIiB3YXMgYWRkZWQgc3VjY2Vzc2Z1bGx5LiBZb3UgbWF5IGFkZCBhbm90aGVyIG1ha2VyIGJlbG93\nLmgISxR1YmgDKYFxDX1xDihoBlgAAAAAaAdYUQAAAFRoZSBwcm9kdWN0ICJDb2tlIENhbiIgd2Fz\nIGFkZGVkIHN1Y2Nlc3NmdWxseS4gWW91IG1heSBhZGQgYW5vdGhlciBwcm9kdWN0IGJlbG93LmgI\nSxR1YmgDKYFxD31xEChoBlgAAAAAaAdYcwAAAFRoZSB0YWtlciAiQ2l0eSBvZiBDYW1icmlkZ2Ug\nQ3VyYnNpZGUgUmVjeWNsaW5nIFByb2dyYW0iIHdhcyBjaGFuZ2VkIHN1Y2Nlc3NmdWxseS4gWW91\nIG1heSBhZGQgYW5vdGhlciB0YWtlciBiZWxvdy5oCEsUdWJlVQ1fYXV0aF91c2VyX2lkSwFVEl9h\ndXRoX3VzZXJfYmFja2VuZFUpZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tl\nbmR1Lg==\n"}}, {"pk": 1, "model": "sites.site", "fields": {"domain": "example.com", "name": "example.com"}}, {"pk": 1, "model": "recycling.address", "fields": {"city": "Cambridge", "address1": "Municipal Curbside Program", "address2": "", "longitude": null, "state": "MA", "latitude": null, "zip_code": "02139"}}, {"pk": 2, "model": "recycling.address", "fields": {"city": "Cambridge", "address1": "57 \ufeffJFK St", "address2": "", "longitude": null, "state": "MA", "latitude": null, "zip_code": "02138"}}, {"pk": 3, "model": "recycling.address", "fields": {"city": "Cambridge", "address1": "100 \ufeffCambridgeside Pl", "address2": "", "longitude": null, "state": "MA", "latitude": null, "zip_code": "02141"}}, {"pk": 1, "model": "recycling.category", "fields": {"name": "Packing Peanuts"}}, {"pk": 2, "model": "recycling.category", "fields": {"name": "Plastic Bags"}}, {"pk": 3, "model": "recycling.category", "fields": {"name": "Plastic Bottles"}}, {"pk": 4, "model": "recycling.category", "fields": {"name": "AC Adapter"}}, {"pk": 5, "model": "recycling.category", "fields": {"name": "Laptop Computer"}}, {"pk": 6, "model": "recycling.category", "fields": {"name": "Desktop Computer"}}, {"pk": 7, "model": "recycling.category", "fields": {"name": "Aluminum Cans"}}, {"pk": 1, "model": "recycling.maker", "fields": {"url": "", "name": "HP"}}, {"pk": 2, "model": "recycling.maker", "fields": {"url": "", "name": "Lenovo"}}, {"pk": 3, "model": "recycling.maker", "fields": {"url": "http://www.cocacola.com/", "name": "CocaCola"}}, {"pk": 1, "model": "recycling.product", "fields": {"category": 7, "code": "04963406", "name": "Coke Can", "model": "Generic", "maker": 3, "description": "Can of Coke"}}, {"pk": 1, "model": "recycling.taker", "fields": {"name": "City of Cambridge Curbside Recycling Program", "url": "http://www.cambridgema.gov/theworks/ourservices/recyclingandtrash/faqrecyclingandrubbish/curbsiderecyclingfaq.aspx", "products": [1], "address": 1, "email": "", "categories": [7]}}, {"pk": 2, "model": "recycling.taker", "fields": {"name": "Staples", "url": "http://stores.staples-locator.com/staples/advantage.adp?transaction=locmap&mapStyle=2k9a&recordId=1154&name=Harvard%20Square&address=57%20JFK%20Street&city=Cambridge&stateProvince=MA&country=US&latitu", "products": [], "address": 2, "email": "", "categories": []}}, {"pk": 3, "model": "recycling.taker", "fields": {"name": "Best \ufeffBuy Mobile", "url": "http://stores.bestbuy.com/537/", "products": [], "address": 3, "email": "", "categories": []}}, {"pk": 1, "model": "auth.permission", "fields": {"codename": "add_logentry", "name": "Can add log entry", "content_type": 1}}, {"pk": 2, "model": "auth.permission", "fields": {"codename": "change_logentry", "name": "Can change log entry", "content_type": 1}}, {"pk": 3, "model": "auth.permission", "fields": {"codename": "delete_logentry", "name": "Can delete log entry", "content_type": 1}}, {"pk": 4, "model": "auth.permission", "fields": {"codename": "add_group", "name": "Can add group", "content_type": 3}}, {"pk": 7, "model": "auth.permission", "fields": {"codename": "change_group", "name": "Can change group", "content_type": 3}}, {"pk": 10, "model": "auth.permission", "fields": {"codename": "delete_group", "name": "Can delete group", "content_type": 3}}, {"pk": 5, "model": "auth.permission", "fields": {"codename": "add_permission", "name": "Can add permission", "content_type": 2}}, {"pk": 8, "model": "auth.permission", "fields": {"codename": "change_permission", "name": "Can change permission", "content_type": 2}}, {"pk": 11, "model": "auth.permission", "fields": {"codename": "delete_permission", "name": "Can delete permission", "content_type": 2}}, {"pk": 6, "model": "auth.permission", "fields": {"codename": "add_user", "name": "Can add user", "content_type": 4}}, {"pk": 9, "model": "auth.permission", "fields": {"codename": "change_user", "name": "Can change user", "content_type": 4}}, {"pk": 12, "model": "auth.permission", "fields": {"codename": "delete_user", "name": "Can delete user", "content_type": 4}}, {"pk": 13, "model": "auth.permission", "fields": {"codename": "add_contenttype", "name": "Can add content type", "content_type": 5}}, {"pk": 14, "model": "auth.permission", "fields": {"codename": "change_contenttype", "name": "Can change content type", "content_type": 5}}, {"pk": 15, "model": "auth.permission", "fields": {"codename": "delete_contenttype", "name": "Can delete content type", "content_type": 5}}, {"pk": 22, "model": "auth.permission", "fields": {"codename": "add_address", "name": "Can add address", "content_type": 8}}, {"pk": 27, "model": "auth.permission", "fields": {"codename": "change_address", "name": "Can change address", "content_type": 8}}, {"pk": 32, "model": "auth.permission", "fields": {"codename": "delete_address", "name": "Can delete address", "content_type": 8}}, {"pk": 23, "model": "auth.permission", "fields": {"codename": "add_category", "name": "Can add category", "content_type": 9}}, {"pk": 28, "model": "auth.permission", "fields": {"codename": "change_category", "name": "Can change category", "content_type": 9}}, {"pk": 33, "model": "auth.permission", "fields": {"codename": "delete_category", "name": "Can delete category", "content_type": 9}}, {"pk": 24, "model": "auth.permission", "fields": {"codename": "add_maker", "name": "Can add maker", "content_type": 10}}, {"pk": 29, "model": "auth.permission", "fields": {"codename": "change_maker", "name": "Can change maker", "content_type": 10}}, {"pk": 34, "model": "auth.permission", "fields": {"codename": "delete_maker", "name": "Can delete maker", "content_type": 10}}, {"pk": 25, "model": "auth.permission", "fields": {"codename": "add_product", "name": "Can add product", "content_type": 11}}, {"pk": 30, "model": "auth.permission", "fields": {"codename": "change_product", "name": "Can change product", "content_type": 11}}, {"pk": 35, "model": "auth.permission", "fields": {"codename": "delete_product", "name": "Can delete product", "content_type": 11}}, {"pk": 26, "model": "auth.permission", "fields": {"codename": "add_taker", "name": "Can add taker", "content_type": 12}}, {"pk": 31, "model": "auth.permission", "fields": {"codename": "change_taker", "name": "Can change taker", "content_type": 12}}, {"pk": 36, "model": "auth.permission", "fields": {"codename": "delete_taker", "name": "Can delete taker", "content_type": 12}}, {"pk": 16, "model": "auth.permission", "fields": {"codename": "add_session", "name": "Can add session", "content_type": 6}}, {"pk": 17, "model": "auth.permission", "fields": {"codename": "change_session", "name": "Can change session", "content_type": 6}}, {"pk": 18, "model": "auth.permission", "fields": {"codename": "delete_session", "name": "Can delete session", "content_type": 6}}, {"pk": 19, "model": "auth.permission", "fields": {"codename": "add_site", "name": "Can add site", "content_type": 7}}, {"pk": 20, "model": "auth.permission", "fields": {"codename": "change_site", "name": "Can change site", "content_type": 7}}, {"pk": 21, "model": "auth.permission", "fields": {"codename": "delete_site", "name": "Can delete site", "content_type": 7}}, {"pk": 1, "model": "auth.user", "fields": {"username": "chaz", "first_name": "", "last_name": "", "is_active": true, "is_superuser": true, "is_staff": true, "last_login": "2012-06-24T02:36:55.986Z", "groups": [], "user_permissions": [], "password": "pbkdf2_sha256$10000$fuR4PkEnOy4r$0r4DAMdMngF6hOvJbFgaH2PqhdZeFDaKJc8y8QaHU2E=", "email": "brian.r.dant@gmail.com", "date_joined": "2012-06-24T00:01:58.932Z"}}, {"pk": 20, "model": "admin.logentry", "fields": {"action_flag": 2, "action_time": "2012-06-24T02:49:23.011Z", "object_repr": "City of Cambridge Curbside Recycling Program", "object_id": "1", "change_message": "Changed categories and products.", "user": 1, "content_type": 12}}, {"pk": 19, "model": "admin.logentry", "fields": {"action_flag": 1, "action_time": "2012-06-24T02:48:51.780Z", "object_repr": "Coke Can", "object_id": "1", "change_message": "", "user": 1, "content_type": 11}}, {"pk": 18, "model": "admin.logentry", "fields": {"action_flag": 1, "action_time": "2012-06-24T02:48:39.422Z", "object_repr": "CocaCola", "object_id": "3", "change_message": "", "user": 1, "content_type": 10}}, {"pk": 17, "model": "admin.logentry", "fields": {"action_flag": 1, "action_time": "2012-06-24T02:47:45.955Z", "object_repr": "Aluminum Cans", "object_id": "7", "change_message": "", "user": 1, "content_type": 9}}, {"pk": 16, "model": "admin.logentry", "fields": {"action_flag": 1, "action_time": "2012-06-24T02:44:37.974Z", "object_repr": "Lenovo", "object_id": "2", "change_message": "", "user": 1, "content_type": 10}}, {"pk": 15, "model": "admin.logentry", "fields": {"action_flag": 1, "action_time": "2012-06-24T02:44:32.768Z", "object_repr": "HP", "object_id": "1", "change_message": "", "user": 1, "content_type": 10}}, {"pk": 14, "model": "admin.logentry", "fields": {"action_flag": 1, "action_time": "2012-06-24T02:41:30.361Z", "object_repr": "Desktop Computer", "object_id": "6", "change_message": "", "user": 1, "content_type": 9}}, {"pk": 13, "model": "admin.logentry", "fields": {"action_flag": 1, "action_time": "2012-06-24T02:41:19.651Z", "object_repr": "Laptop Computer", "object_id": "5", "change_message": "", "user": 1, "content_type": 9}}, {"pk": 12, "model": "admin.logentry", "fields": {"action_flag": 1, "action_time": "2012-06-24T02:41:15.554Z", "object_repr": "AC Adapter", "object_id": "4", "change_message": "", "user": 1, "content_type": 9}}, {"pk": 11, "model": "admin.logentry", "fields": {"action_flag": 1, "action_time": "2012-06-24T02:41:09.440Z", "object_repr": "Plastic Bottles", "object_id": "3", "change_message": "", "user": 1, "content_type": 9}}, {"pk": 10, "model": "admin.logentry", "fields": {"action_flag": 1, "action_time": "2012-06-24T02:39:37.887Z", "object_repr": "Plastic Bags", "object_id": "2", "change_message": "", "user": 1, "content_type": 9}}, {"pk": 9, "model": "admin.logentry", "fields": {"action_flag": 1, "action_time": "2012-06-24T02:39:22.362Z", "object_repr": "Packing Peanuts", "object_id": "1", "change_message": "", "user": 1, "content_type": 9}}, {"pk": 8, "model": "admin.logentry", "fields": {"action_flag": 2, "action_time": "2012-06-24T01:26:26.612Z", "object_repr": "Best \ufeffBuy Mobile", "object_id": "3", "change_message": "Changed url.", "user": 1, "content_type": 12}}, {"pk": 7, "model": "admin.logentry", "fields": {"action_flag": 2, "action_time": "2012-06-24T01:26:01.583Z", "object_repr": "02141", "object_id": "3", "change_message": "No fields changed.", "user": 1, "content_type": 8}}, {"pk": 6, "model": "admin.logentry", "fields": {"action_flag": 1, "action_time": "2012-06-24T01:24:57.595Z", "object_repr": "Best \ufeffBuy Mobile", "object_id": "3", "change_message": "", "user": 1, "content_type": 12}}, {"pk": 5, "model": "admin.logentry", "fields": {"action_flag": 1, "action_time": "2012-06-24T01:23:14.328Z", "object_repr": "02141", "object_id": "3", "change_message": "", "user": 1, "content_type": 8}}, {"pk": 4, "model": "admin.logentry", "fields": {"action_flag": 1, "action_time": "2012-06-24T01:22:06.590Z", "object_repr": "Staples", "object_id": "2", "change_message": "", "user": 1, "content_type": 12}}, {"pk": 3, "model": "admin.logentry", "fields": {"action_flag": 1, "action_time": "2012-06-24T01:20:32.358Z", "object_repr": "02138", "object_id": "2", "change_message": "", "user": 1, "content_type": 8}}, {"pk": 2, "model": "admin.logentry", "fields": {"action_flag": 1, "action_time": "2012-06-24T01:18:44.673Z", "object_repr": "City of Cambridge Curbside Recycling Program", "object_id": "1", "change_message": "", "user": 1, "content_type": 12}}, {"pk": 1, "model": "admin.logentry", "fields": {"action_flag": 1, "action_time": "2012-06-24T01:17:12.203Z", "object_repr": "02139", "object_id": "1", "change_message": "", "user": 1, "content_type": 8}}]
+[{"pk": 8, "model": "contenttypes.contenttype", "fields": {"model": "address", "name": "address", "app_label": "recycling"}}, {"pk": 9, "model": "contenttypes.contenttype", "fields": {"model": "category", "name": "category", "app_label": "recycling"}}, {"pk": 5, "model": "contenttypes.contenttype", "fields": {"model": "contenttype", "name": "content type", "app_label": "contenttypes"}}, {"pk": 3, "model": "contenttypes.contenttype", "fields": {"model": "group", "name": "group", "app_label": "auth"}}, {"pk": 1, "model": "contenttypes.contenttype", "fields": {"model": "logentry", "name": "log entry", "app_label": "admin"}}, {"pk": 10, "model": "contenttypes.contenttype", "fields": {"model": "maker", "name": "maker", "app_label": "recycling"}}, {"pk": 2, "model": "contenttypes.contenttype", "fields": {"model": "permission", "name": "permission", "app_label": "auth"}}, {"pk": 11, "model": "contenttypes.contenttype", "fields": {"model": "product", "name": "product", "app_label": "recycling"}}, {"pk": 6, "model": "contenttypes.contenttype", "fields": {"model": "session", "name": "session", "app_label": "sessions"}}, {"pk": 7, "model": "contenttypes.contenttype", "fields": {"model": "site", "name": "site", "app_label": "sites"}}, {"pk": 12, "model": "contenttypes.contenttype", "fields": {"model": "taker", "name": "taker", "app_label": "recycling"}}, {"pk": 4, "model": "contenttypes.contenttype", "fields": {"model": "user", "name": "user", "app_label": "auth"}}, {"pk": "542809ed52ccd531b1c8c354c54b6e08", "model": "sessions.session", "fields": {"expire_date": "2012-07-08T00:02:57.174Z", "session_data": "ZTg1NzQ3NmUxODhjMWI5ODY0NDM5NzFkMTgxZjQ5ZWYyZWE0ODBmOTqAAn1xAShVEl9hdXRoX3Vz\nZXJfYmFja2VuZHECVSlkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZHED\nVQ1fYXV0aF91c2VyX2lkcQRLAXUu\n"}}, {"pk": "00432863179e58f040ca0e08bff82ea9", "model": "sessions.session", "fields": {"expire_date": "2012-07-08T02:49:23.180Z", "session_data": "NmI2MDE1ZjI5MjdkOTI5OTViMGE3MTVhZWNhYTc2Mjc5NWY0MTFkMDqAAn1xAShVCV9tZXNzYWdl\nc11xAihjZGphbmdvLmNvbnRyaWIubWVzc2FnZXMuc3RvcmFnZS5iYXNlCk1lc3NhZ2UKcQMpgXEE\nfXEFKFUKZXh0cmFfdGFnc3EGWAAAAABVB21lc3NhZ2VxB1hbAAAAVGhlIGNhdGVnb3J5ICJEZXNr\ndG9wIENvbXB1dGVyIiB3YXMgYWRkZWQgc3VjY2Vzc2Z1bGx5LiBZb3UgbWF5IGFkZCBhbm90aGVy\nIGNhdGVnb3J5IGJlbG93LlUFbGV2ZWxxCEsUdWJoAymBcQl9cQooaAZYAAAAAGgHWEcAAABUaGUg\nbWFrZXIgIkhQIiB3YXMgYWRkZWQgc3VjY2Vzc2Z1bGx5LiBZb3UgbWF5IGFkZCBhbm90aGVyIG1h\na2VyIGJlbG93LmgISxR1YmgDKYFxC31xDChoBlgAAAAAaAdYSwAAAFRoZSBtYWtlciAiTGVub3Zv\nIiB3YXMgYWRkZWQgc3VjY2Vzc2Z1bGx5LiBZb3UgbWF5IGFkZCBhbm90aGVyIG1ha2VyIGJlbG93\nLmgISxR1YmgDKYFxDX1xDihoBlgAAAAAaAdYUQAAAFRoZSBwcm9kdWN0ICJDb2tlIENhbiIgd2Fz\nIGFkZGVkIHN1Y2Nlc3NmdWxseS4gWW91IG1heSBhZGQgYW5vdGhlciBwcm9kdWN0IGJlbG93LmgI\nSxR1YmgDKYFxD31xEChoBlgAAAAAaAdYcwAAAFRoZSB0YWtlciAiQ2l0eSBvZiBDYW1icmlkZ2Ug\nQ3VyYnNpZGUgUmVjeWNsaW5nIFByb2dyYW0iIHdhcyBjaGFuZ2VkIHN1Y2Nlc3NmdWxseS4gWW91\nIG1heSBhZGQgYW5vdGhlciB0YWtlciBiZWxvdy5oCEsUdWJlVQ1fYXV0aF91c2VyX2lkSwFVEl9h\ndXRoX3VzZXJfYmFja2VuZFUpZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tl\nbmR1Lg==\n"}}, {"pk": 1, "model": "sites.site", "fields": {"domain": "example.com", "name": "example.com"}}, {"pk": 1, "model": "recycling.address", "fields": {"city": "Cambridge", "address1": "Municipal Curbside Program", "address2": "", "longitude": null, "state": "MA", "latitude": null, "zip_code": "02139"}}, {"pk": 2, "model": "recycling.address", "fields": {"city": "Cambridge", "address1": "57 \ufeffJFK St", "address2": "", "longitude": null, "state": "MA", "latitude": null, "zip_code": "02138"}}, {"pk": 3, "model": "recycling.address", "fields": {"city": "Cambridge", "address1": "100 \ufeffCambridgeside Pl", "address2": "", "longitude": null, "state": "MA", "latitude": null, "zip_code": "02141"}}, {"pk": 1, "model": "recycling.category", "fields": {"name": "Packing Peanuts"}}, {"pk": 2, "model": "recycling.category", "fields": {"name": "Plastic Bags"}}, {"pk": 3, "model": "recycling.category", "fields": {"name": "Plastic Bottles"}}, {"pk": 4, "model": "recycling.category", "fields": {"name": "AC Adapter"}}, {"pk": 5, "model": "recycling.category", "fields": {"name": "Laptop Computer"}}, {"pk": 6, "model": "recycling.category", "fields": {"name": "Desktop Computer"}}, {"pk": 7, "model": "recycling.category", "fields": {"name": "Aluminum Cans"}}, {"pk": 1, "model": "recycling.maker", "fields": {"url": "", "name": "HP"}}, {"pk": 2, "model": "recycling.maker", "fields": {"url": "", "name": "Lenovo"}}, {"pk": 3, "model": "recycling.maker", "fields": {"url": "http://www.cocacola.com/", "name": "CocaCola"}}, {"pk": 1, "model": "recycling.product", "fields": {"category": 7, "code": "04963406", "name": "Coke Can", "model": "Generic", "maker": 3, "description": "Can of Coke"}}, {"pk": 1, "model": "recycling.taker", "fields": {"name": "City of Cambridge Curbside Recycling Program", "url": "http://www.cambridgema.gov/theworks/ourservices/recyclingandtrash/faqrecyclingandrubbish/curbsiderecyclingfaq.aspx", "products": [1], "address": 1, "email": "", "categories": [7]}}, {"pk": 2, "model": "recycling.taker", "fields": {"name": "Staples", "url": "http://stores.staples-locator.com/staples/advantage.adp?transaction=locmap&mapStyle=2k9a&recordId=1154&name=Harvard%20Square&address=57%20JFK%20Street&city=Cambridge&stateProvince=MA&country=US&latitu", "products": [], "address": 2, "email": "", "categories": []}}, {"pk": 3, "model": "recycling.taker", "fields": {"name": "Best \ufeffBuy Mobile", "url": "http://stores.bestbuy.com/537/", "products": [], "address": 3, "email": "", "categories": []}}, {"pk": 1, "model": "auth.permission", "fields": {"codename": "add_logentry", "name": "Can add log entry", "content_type": 1}}, {"pk": 2, "model": "auth.permission", "fields": {"codename": "change_logentry", "name": "Can change log entry", "content_type": 1}}, {"pk": 3, "model": "auth.permission", "fields": {"codename": "delete_logentry", "name": "Can delete log entry", "content_type": 1}}, {"pk": 4, "model": "auth.permission", "fields": {"codename": "add_group", "name": "Can add group", "content_type": 3}}, {"pk": 7, "model": "auth.permission", "fields": {"codename": "change_group", "name": "Can change group", "content_type": 3}}, {"pk": 10, "model": "auth.permission", "fields": {"codename": "delete_group", "name": "Can delete group", "content_type": 3}}, {"pk": 5, "model": "auth.permission", "fields": {"codename": "add_permission", "name": "Can add permission", "content_type": 2}}, {"pk": 8, "model": "auth.permission", "fields": {"codename": "change_permission", "name": "Can change permission", "content_type": 2}}, {"pk": 11, "model": "auth.permission", "fields": {"codename": "delete_permission", "name": "Can delete permission", "content_type": 2}}, {"pk": 6, "model": "auth.permission", "fields": {"codename": "add_user", "name": "Can add user", "content_type": 4}}, {"pk": 9, "model": "auth.permission", "fields": {"codename": "change_user", "name": "Can change user", "content_type": 4}}, {"pk": 12, "model": "auth.permission", "fields": {"codename": "delete_user", "name": "Can delete user", "content_type": 4}}, {"pk": 13, "model": "auth.permission", "fields": {"codename": "add_contenttype", "name": "Can add content type", "content_type": 5}}, {"pk": 14, "model": "auth.permission", "fields": {"codename": "change_contenttype", "name": "Can change content type", "content_type": 5}}, {"pk": 15, "model": "auth.permission", "fields": {"codename": "delete_contenttype", "name": "Can delete content type", "content_type": 5}}, {"pk": 22, "model": "auth.permission", "fields": {"codename": "add_address", "name": "Can add address", "content_type": 8}}, {"pk": 27, "model": "auth.permission", "fields": {"codename": "change_address", "name": "Can change address", "content_type": 8}}, {"pk": 32, "model": "auth.permission", "fields": {"codename": "delete_address", "name": "Can delete address", "content_type": 8}}, {"pk": 23, "model": "auth.permission", "fields": {"codename": "add_category", "name": "Can add category", "content_type": 9}}, {"pk": 28, "model": "auth.permission", "fields": {"codename": "change_category", "name": "Can change category", "content_type": 9}}, {"pk": 33, "model": "auth.permission", "fields": {"codename": "delete_category", "name": "Can delete category", "content_type": 9}}, {"pk": 24, "model": "auth.permission", "fields": {"codename": "add_maker", "name": "Can add maker", "content_type": 10}}, {"pk": 29, "model": "auth.permission", "fields": {"codename": "change_maker", "name": "Can change maker", "content_type": 10}}, {"pk": 34, "model": "auth.permission", "fields": {"codename": "delete_maker", "name": "Can delete maker", "content_type": 10}}, {"pk": 25, "model": "auth.permission", "fields": {"codename": "add_product", "name": "Can add product", "content_type": 11}}, {"pk": 30, "model": "auth.permission", "fields": {"codename": "change_product", "name": "Can change product", "content_type": 11}}, {"pk": 35, "model": "auth.permission", "fields": {"codename": "delete_product", "name": "Can delete product", "content_type": 11}}, {"pk": 26, "model": "auth.permission", "fields": {"codename": "add_taker", "name": "Can add taker", "content_type": 12}}, {"pk": 31, "model": "auth.permission", "fields": {"codename": "change_taker", "name": "Can change taker", "content_type": 12}}, {"pk": 36, "model": "auth.permission", "fields": {"codename": "delete_taker", "name": "Can delete taker", "content_type": 12}}, {"pk": 16, "model": "auth.permission", "fields": {"codename": "add_session", "name": "Can add session", "content_type": 6}}, {"pk": 17, "model": "auth.permission", "fields": {"codename": "change_session", "name": "Can change session", "content_type": 6}}, {"pk": 18, "model": "auth.permission", "fields": {"codename": "delete_session", "name": "Can delete session", "content_type": 6}}, {"pk": 19, "model": "auth.permission", "fields": {"codename": "add_site", "name": "Can add site", "content_type": 7}}, {"pk": 20, "model": "auth.permission", "fields": {"codename": "change_site", "name": "Can change site", "content_type": 7}}, {"pk": 21, "model": "auth.permission", "fields": {"codename": "delete_site", "name": "Can delete site", "content_type": 7}}, {"pk": 1, "model": "auth.user", "fields": {"username": "chaz", "first_name": "", "last_name": "", "is_active": true, "is_superuser": true, "is_staff": true, "last_login": "2012-06-24T02:36:55.986Z", "groups": [], "user_permissions": [], "password": "pbkdf2_sha256$10000$fuR4PkEnOy4r$0r4DAMdMngF6hOvJbFgaH2PqhdZeFDaKJc8y8QaHU2E=", "email": "brian.r.dant@gmail.com", "date_joined": "2012-06-24T00:01:58.932Z"}}, {"pk": 20, "model": "admin.logentry", "fields": {"action_flag": 2, "action_time": "2012-06-24T02:49:23.011Z", "object_repr": "City of Cambridge Curbside Recycling Program", "object_id": "1", "change_message": "Changed categories and products.", "user": 1, "content_type": 12}}, {"pk": 19, "model": "admin.logentry", "fields": {"action_flag": 1, "action_time": "2012-06-24T02:48:51.780Z", "object_repr": "Coke Can", "object_id": "1", "change_message": "", "user": 1, "content_type": 11}}, {"pk": 18, "model": "admin.logentry", "fields": {"action_flag": 1, "action_time": "2012-06-24T02:48:39.422Z", "object_repr": "CocaCola", "object_id": "3", "change_message": "", "user": 1, "content_type": 10}}, {"pk": 17, "model": "admin.logentry", "fields": {"action_flag": 1, "action_time": "2012-06-24T02:47:45.955Z", "object_repr": "Aluminum Cans", "object_id": "7", "change_message": "", "user": 1, "content_type": 9}}, {"pk": 16, "model": "admin.logentry", "fields": {"action_flag": 1, "action_time": "2012-06-24T02:44:37.974Z", "object_repr": "Lenovo", "object_id": "2", "change_message": "", "user": 1, "content_type": 10}}, {"pk": 15, "model": "admin.logentry", "fields": {"action_flag": 1, "action_time": "2012-06-24T02:44:32.768Z", "object_repr": "HP", "object_id": "1", "change_message": "", "user": 1, "content_type": 10}}, {"pk": 14, "model": "admin.logentry", "fields": {"action_flag": 1, "action_time": "2012-06-24T02:41:30.361Z", "object_repr": "Desktop Computer", "object_id": "6", "change_message": "", "user": 1, "content_type": 9}}, {"pk": 13, "model": "admin.logentry", "fields": {"action_flag": 1, "action_time": "2012-06-24T02:41:19.651Z", "object_repr": "Laptop Computer", "object_id": "5", "change_message": "", "user": 1, "content_type": 9}}, {"pk": 12, "model": "admin.logentry", "fields": {"action_flag": 1, "action_time": "2012-06-24T02:41:15.554Z", "object_repr": "AC Adapter", "object_id": "4", "change_message": "", "user": 1, "content_type": 9}}, {"pk": 11, "model": "admin.logentry", "fields": {"action_flag": 1, "action_time": "2012-06-24T02:41:09.440Z", "object_repr": "Plastic Bottles", "object_id": "3", "change_message": "", "user": 1, "content_type": 9}}, {"pk": 10, "model": "admin.logentry", "fields": {"action_flag": 1, "action_time": "2012-06-24T02:39:37.887Z", "object_repr": "Plastic Bags", "object_id": "2", "change_message": "", "user": 1, "content_type": 9}}, {"pk": 9, "model": "admin.logentry", "fields": {"action_flag": 1, "action_time": "2012-06-24T02:39:22.362Z", "object_repr": "Packing Peanuts", "object_id": "1", "change_message": "", "user": 1, "content_type": 9}}, {"pk": 8, "model": "admin.logentry", "fields": {"action_flag": 2, "action_time": "2012-06-24T01:26:26.612Z", "object_repr": "Best \ufeffBuy Mobile", "object_id": "3", "change_message": "Changed url.", "user": 1, "content_type": 12}}, {"pk": 7, "model": "admin.logentry", "fields": {"action_flag": 2, "action_time": "2012-06-24T01:26:01.583Z", "object_repr": "02141", "object_id": "3", "change_message": "No fields changed.", "user": 1, "content_type": 8}}, {"pk": 6, "model": "admin.logentry", "fields": {"action_flag": 1, "action_time": "2012-06-24T01:24:57.595Z", "object_repr": "Best \ufeffBuy Mobile", "object_id": "3", "change_message": "", "user": 1, "content_type": 12}}, {"pk": 5, "model": "admin.logentry", "fields": {"action_flag": 1, "action_time": "2012-06-24T01:23:14.328Z", "object_repr": "02141", "object_id": "3", "change_message": "", "user": 1, "content_type": 8}}, {"pk": 4, "model": "admin.logentry", "fields": {"action_flag": 1, "action_time": "2012-06-24T01:22:06.590Z", "object_repr": "Staples", "object_id": "2", "change_message": "", "user": 1, "content_type": 12}}, {"pk": 3, "model": "admin.logentry", "fields": {"action_flag": 1, "action_time": "2012-06-24T01:20:32.358Z", "object_repr": "02138", "object_id": "2", "change_message": "", "user": 1, "content_type": 8}}, {"pk": 2, "model": "admin.logentry", "fields": {"action_flag": 1, "action_time": "2012-06-24T01:18:44.673Z", "object_repr": "City of Cambridge Curbside Recycling Program", "object_id": "1", "change_message": "", "user": 1, "content_type": 12}}, {"pk": 1, "model": "admin.logentry", "fields": {"action_flag": 1, "action_time": "2012-06-24T01:17:12.203Z", "object_repr": "02139", "object_id": "1", "change_message": "", "user": 1, "content_type": 8}}][
+  {
+    "pk": 1, 
+    "model": "recycling.address", 
+    "fields": {
+      "city": "Cambridge", 
+      "address1": "Municipal Curbside Program", 
+      "address2": "", 
+      "longitude": -71.103259, 
+      "state": "MA", 
+      "latitude": 42.364756, 
+      "zip_code": "02139"
+    }
+  }, 
+  {
+    "pk": 2, 
+    "model": "recycling.address", 
+    "fields": {
+      "city": "Cambridge", 
+      "address1": "57 \ufeffJFK St", 
+      "address2": "", 
+      "longitude": -71.120772, 
+      "state": "MA", 
+      "latitude": 42.372206, 
+      "zip_code": "02138"
+    }
+  }, 
+  {
+    "pk": 3, 
+    "model": "recycling.address", 
+    "fields": {
+      "city": "Cambridge", 
+      "address1": "100 \ufeffCambridgeside Pl", 
+      "address2": "", 
+      "longitude": -71.076007, 
+      "state": "MA", 
+      "latitude": 42.368643, 
+      "zip_code": "02141"
+    }
+  }, 
+  {
+    "pk": 4, 
+    "model": "recycling.address", 
+    "fields": {
+      "city": "Somerville", 
+      "address1": "275 \ufeffBeacon St", 
+      "address2": "", 
+      "longitude": -71.1119, 
+      "state": "MA", 
+      "latitude": 42.382845, 
+      "zip_code": "02143"
+    }
+  }, 
+  {
+    "pk": 5, 
+    "model": "recycling.address", 
+    "fields": {
+      "city": "Cambridge", 
+      "address1": "115 \ufeffProspect St", 
+      "address2": "", 
+      "longitude": -71.1022, 
+      "state": "MA", 
+      "latitude": 42.367999, 
+      "zip_code": "02139"
+    }
+  }, 
+  {
+    "pk": 6, 
+    "model": "recycling.address", 
+    "fields": {
+      "city": "Issaquah", 
+      "address1": "1840 25th Avenue NE, Suite 210", 
+      "address2": "", 
+      "longitude": -121.997702, 
+      "state": "WA", 
+      "latitude": 47.547364, 
+      "zip_code": "98029"
+    }
+  }, 
+  {
+    "pk": 1, 
+    "model": "recycling.category", 
+    "fields": {
+      "name": "Packing Peanuts"
+    }
+  }, 
+  {
+    "pk": 2, 
+    "model": "recycling.category", 
+    "fields": {
+      "name": "Plastic Bags"
+    }
+  }, 
+  {
+    "pk": 3, 
+    "model": "recycling.category", 
+    "fields": {
+      "name": "Plastic Bottles"
+    }
+  }, 
+  {
+    "pk": 4, 
+    "model": "recycling.category", 
+    "fields": {
+      "name": "AC Adapter"
+    }
+  }, 
+  {
+    "pk": 5, 
+    "model": "recycling.category", 
+    "fields": {
+      "name": "Laptop Computer"
+    }
+  }, 
+  {
+    "pk": 6, 
+    "model": "recycling.category", 
+    "fields": {
+      "name": "Desktop Computer"
+    }
+  }, 
+  {
+    "pk": 7, 
+    "model": "recycling.category", 
+    "fields": {
+      "name": "Aluminum Cans"
+    }
+  }, 
+  {
+    "pk": 8, 
+    "model": "recycling.category", 
+    "fields": {
+      "name": "Tapes"
+    }
+  }, 
+  {
+    "pk": 9, 
+    "model": "recycling.category", 
+    "fields": {
+      "name": "Medications"
+    }
+  }, 
+  {
+    "pk": 10, 
+    "model": "recycling.category", 
+    "fields": {
+      "name": "Laserdisk"
+    }
+  }, 
+  {
+    "pk": 1, 
+    "model": "recycling.maker", 
+    "fields": {
+      "url": "", 
+      "name": "HP"
+    }
+  }, 
+  {
+    "pk": 2, 
+    "model": "recycling.maker", 
+    "fields": {
+      "url": "", 
+      "name": "Lenovo"
+    }
+  }, 
+  {
+    "pk": 3, 
+    "model": "recycling.maker", 
+    "fields": {
+      "url": "http://www.cocacola.com/", 
+      "name": "CocaCola"
+    }
+  }, 
+  {
+    "pk": 4, 
+    "model": "recycling.maker", 
+    "fields": {
+      "url": "", 
+      "name": "BASF"
+    }
+  }, 
+  {
+    "pk": 5, 
+    "model": "recycling.maker", 
+    "fields": {
+      "url": "", 
+      "name": "Tobrex"
+    }
+  }, 
+  {
+    "pk": 6, 
+    "model": "recycling.maker", 
+    "fields": {
+      "url": "http://www.fougera.com/", 
+      "name": "E. Fougera & Co."
+    }
+  }, 
+  {
+    "pk": 7, 
+    "model": "recycling.maker", 
+    "fields": {
+      "url": "", 
+      "name": "The Walt Diney Company"
+    }
+  }, 
+  {
+    "pk": 1, 
+    "model": "recycling.product", 
+    "fields": {
+      "category": 7, 
+      "code": "04963406", 
+      "name": "Coke Can", 
+      "model": "Generic", 
+      "maker": 3, 
+      "description": "Can of Coke"
+    }
+  }, 
+  {
+    "pk": 2, 
+    "model": "recycling.product", 
+    "fields": {
+      "category": 8, 
+      "code": "028357560350", 
+      "name": "BASF Beta Tape", 
+      "model": "L750", 
+      "maker": 4, 
+      "description": "Beta tape made by BASF"
+    }
+  }, 
+  {
+    "pk": 3, 
+    "model": "recycling.product", 
+    "fields": {
+      "category": 9, 
+      "code": "", 
+      "name": "Tobrex Ointment", 
+      "model": "n/a", 
+      "maker": 5, 
+      "description": "3.5 g tube of tobramycin ophthalmic ointment"
+    }
+  }, 
+  {
+    "pk": 4, 
+    "model": "recycling.product", 
+    "fields": {
+      "category": 9, 
+      "code": "010030168007038", 
+      "name": "Fougera Ointment", 
+      "model": "n/a", 
+      "maker": 6, 
+      "description": "3.5 g tube of Erythromycin Ophthalmic Ointment "
+    }
+  }, 
+  {
+    "pk": 5, 
+    "model": "recycling.product", 
+    "fields": {
+      "category": 10, 
+      "code": "01795113206", 
+      "name": "Fantasia Laserdisk", 
+      "model": "", 
+      "maker": 7, 
+      "description": "Walt Disney's Masterpiece \"Fantasia\""
+    }
+  }, 
+  {
+    "pk": 1, 
+    "model": "recycling.taker", 
+    "fields": {
+      "name": "City of Cambridge Curbside Recycling Program", 
+      "url": "http://www.cambridgema.gov/theworks/ourservices/recyclingandtrash/faqrecyclingandrubbish/curbsiderecyclingfaq.aspx", 
+      "products": [
+        1
+      ], 
+      "address": 1, 
+      "email": "", 
+      "categories": [
+        7
+      ]
+    }
+  }, 
+  {
+    "pk": 2, 
+    "model": "recycling.taker", 
+    "fields": {
+      "name": "Staples", 
+      "url": "http://stores.staples-locator.com/staples/advantage.adp?transaction=locmap&mapStyle=2k9a&recordId=1154&name=Harvard%20Square&address=57%20JFK%20Street&city=Cambridge&stateProvince=MA&country=US&latitu", 
+      "products": [], 
+      "address": 2, 
+      "email": "", 
+      "categories": []
+    }
+  }, 
+  {
+    "pk": 3, 
+    "model": "recycling.taker", 
+    "fields": {
+      "name": "Best \ufeffBuy Mobile", 
+      "url": "http://stores.bestbuy.com/537/", 
+      "products": [], 
+      "address": 3, 
+      "email": "", 
+      "categories": []
+    }
+  }, 
+  {
+    "pk": 4, 
+    "model": "recycling.taker", 
+    "fields": {
+      "name": "Green Disk: Technotrash Recycling Services", 
+      "url": "http://greendisk.com/gdsite/services.aspx", 
+      "products": [], 
+      "address": 6, 
+      "email": "", 
+      "categories": [
+        4, 
+        5, 
+        6
+      ]
+    }
+  }
+]
