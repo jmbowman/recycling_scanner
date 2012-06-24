@@ -18,6 +18,11 @@ class TakerSearchView(SearchView):
         """
         (paginator, page) = self.build_page()
         results = page.object_list
-        results = [{'name': o.name} for o in results]
+        results = [{
+                    'name': o.object.name,
+                    'address': ', '.join([o.object.address.address1, o.object.address.city, o.object.address.state]),
+                    'distance': o.distance if hasattr(o, 'distance') else None,
+                    'url': o.object.url
+                    } for o in results]
         result = {'page_count': paginator.num_pages, 'results': results}
         return HttpResponse(dumps(result), mimetype='application/json')

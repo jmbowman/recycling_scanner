@@ -16,7 +16,7 @@ def bounding_box(latitude, longitude, miles):
     center = Point(latitude, longitude)
     dist = distance()
     top = dist.destination(center, 0, km(miles=2 * miles))
-    r = top.longitude - longitude
+    r = top.latitude - latitude
     return (latitude - r, longitude + r, latitude + r, longitude - r)
 
 
