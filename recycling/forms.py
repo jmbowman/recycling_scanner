@@ -7,7 +7,6 @@ from recycling.utils import bounding_box, distance_between
 
 
 class TakerSearchForm(SearchForm):
-    code = forms.CharField(max_length=15, required=False)
     latitude = forms.FloatField(required=False)
     longitude = forms.FloatField(required=False)
     radius = forms.ChoiceField(choices=(('5', '5'), ('10', '10'), ('25', '25'),
@@ -24,8 +23,6 @@ class TakerSearchForm(SearchForm):
         sqs = super(TakerSearchForm, self).search()
         if not hasattr(self, 'cleaned_data'):
             return sqs
-        if self.cleaned_data['code']:
-            sqs = sqs.filter(code=self.cleaned_data['code'])
         miles = int(self.cleaned_data['radius'])
         # first pass at filtering based on rough bounding box
         latitude = self.cleaned_data['latitude']
@@ -35,16 +32,17 @@ class TakerSearchForm(SearchForm):
         if not longitude:
             longitude = -71.081157
         bbox = bounding_box(latitude, longitude, miles)
-        sqs.filter(latitude__gte=bbox[0])
-        sqs.filter(longitude__lte=bbox[1])
-        sqs.filter(latitude__lte=bbox[2])
-        sqs.filter(longitude__gte=bbox[3])
+        sqs = sqs.filter_or(latitude__gte=bbox[0], latitude__gt=199)
+        sqs = sqs.filter_or(longitude__lte=bbox[1], longitude__gt=199)
+        sqs = sqs.filter_or(latitude__lte=bbox[2], latitude__gt=199)
+        sqs = sqs.filter_or(longitude__gte=bbox[3], longitude__gt=199)
         # now filter the results for actual distance matches
         ids = []
         center = Point(latitude, longitude)
         for result in sqs.all():
-            if not result.latitude or not result.longitude:
-                continue
+            if result.latitude > 199 or result.longitude > 199:
+                # include results without locations, they'll appear last
+                ids.append(result.pk)
             if distance_between(center, result.latitude, result.longitude) <= miles:
                 ids.append(result.pk)
         if len(ids) > 0:
@@ -54,7 +52,7 @@ class TakerSearchForm(SearchForm):
 
         results = list(sqs.load_all())
         for taker in results:
-            if taker.latitude and taker.longitude:
+            if taker.latitude < 199 and taker.longitude < 199:
                 taker.distance = distance_between(center, taker.latitude, taker.longitude)
         results = sorted(results, key=lambda o: o.distance if hasattr(o, 'distance') else 1000000)
         return results

@@ -2,5 +2,5 @@
 {{ object.url }}
 {{ object.email }}
 {{ object.address.city }}
-{% for product in object.products.all %}{{ product }}{% if product.category %} ({{ product.category }}){% endif %}, {% endfor %}
-{% for category in object.categories.all %}{{ category }}, {% endfor %}
+{% for product in object.products.all %}{{ product }} {{ product.code }} {% if product.category %} ({{ product.category }}){% endif %}, {% endfor %}
+{% for category in object.categories.all %}{{ category }} {% for product in category.products.all %} {{ product.name }} {{ product.code }} {% endfor %}, {% endfor %}
