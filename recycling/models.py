@@ -14,7 +14,7 @@ class Address(models.Model):
     longitude = models.FloatField(null=True, blank=True)
 
     def __unicode__(self):
-        return self.zip_code
+        return self.address1
 
 
 class Category(models.Model):
