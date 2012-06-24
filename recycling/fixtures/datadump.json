@@ -6,7 +6,7 @@
       "city": "Cambridge", 
       "address1": "Municipal Curbside Program", 
       "address2": "", 
-      "longitude": -71.103259, 
+      "longitude": -71.103258999999994, 
       "state": "MA", 
       "latitude": 42.364756, 
       "zip_code": "02139"
@@ -19,9 +19,9 @@
       "city": "Cambridge", 
       "address1": "57 \ufeffJFK St", 
       "address2": "", 
-      "longitude": -71.120772, 
+      "longitude": -71.120772000000002, 
       "state": "MA", 
-      "latitude": 42.372206, 
+      "latitude": 42.372205999999998, 
       "zip_code": "02138"
     }
   }, 
@@ -32,9 +32,9 @@
       "city": "Cambridge", 
       "address1": "100 \ufeffCambridgeside Pl", 
       "address2": "", 
-      "longitude": -71.076007, 
+      "longitude": -71.076007000000004, 
       "state": "MA", 
-      "latitude": 42.368643, 
+      "latitude": 42.368642999999999, 
       "zip_code": "02141"
     }
   }, 
@@ -45,9 +45,9 @@
       "city": "Somerville", 
       "address1": "275 \ufeffBeacon St", 
       "address2": "", 
-      "longitude": -71.1119, 
+      "longitude": -71.111900000000006, 
       "state": "MA", 
-      "latitude": 42.382845, 
+      "latitude": 42.382845000000003, 
       "zip_code": "02143"
     }
   }, 
@@ -58,9 +58,9 @@
       "city": "Cambridge", 
       "address1": "115 \ufeffProspect St", 
       "address2": "", 
-      "longitude": -71.1022, 
+      "longitude": -71.102199999999996, 
       "state": "MA", 
-      "latitude": 42.367999, 
+      "latitude": 42.367998999999998, 
       "zip_code": "02139"
     }
   }, 
@@ -71,10 +71,101 @@
       "city": "Issaquah", 
       "address1": "1840 25th Avenue NE, Suite 210", 
       "address2": "", 
-      "longitude": -121.997702, 
+      "longitude": null, 
       "state": "WA", 
-      "latitude": 47.547364, 
+      "latitude": null, 
       "zip_code": "98029"
+    }
+  }, 
+  {
+    "pk": 7, 
+    "model": "recycling.address", 
+    "fields": {
+      "city": "Wellesley", 
+      "address1": "", 
+      "address2": "", 
+      "longitude": -71.292388000000003, 
+      "state": "MA", 
+      "latitude": 42.296796999999998, 
+      "zip_code": "02482"
+    }
+  }, 
+  {
+    "pk": 8, 
+    "model": "recycling.address", 
+    "fields": {
+      "city": "Cambridge", 
+      "address1": "292 Main Street Cambridge", 
+      "address2": "", 
+      "longitude": -71.086009000000004, 
+      "state": "MA", 
+      "latitude": 42.362316, 
+      "zip_code": "02142"
+    }
+  }, 
+  {
+    "pk": 9, 
+    "model": "recycling.address", 
+    "fields": {
+      "city": "Cambridge", 
+      "address1": "100 Cherry Street", 
+      "address2": "", 
+      "longitude": -71.097057000000007, 
+      "state": "MA", 
+      "latitude": 42.365104000000002, 
+      "zip_code": "02139"
+    }
+  }, 
+  {
+    "pk": 10, 
+    "model": "recycling.address", 
+    "fields": {
+      "city": "Galway", 
+      "address1": "ATTN: Kevin Grosky 294 Southline Road", 
+      "address2": "", 
+      "longitude": null, 
+      "state": "NY", 
+      "latitude": null, 
+      "zip_code": "12074"
+    }
+  }, 
+  {
+    "pk": 11, 
+    "model": "recycling.address", 
+    "fields": {
+      "city": "Cambridge ", 
+      "address1": "1 Memorial Drive", 
+      "address2": "", 
+      "longitude": -71.081190000000007, 
+      "state": "MA", 
+      "latitude": 42.361291000000001, 
+      "zip_code": ""
+    }
+  }, 
+  {
+    "pk": 12, 
+    "model": "recycling.address", 
+    "fields": {
+      "city": "Braintree", 
+      "address1": "1 Hill Ave", 
+      "address2": "", 
+      "longitude": -70.979404000000002, 
+      "state": "MA", 
+      "latitude": 42.235965, 
+      "zip_code": "02184"
+    }
+  }, 
+  {
+    "pk": 13, 
+    "model": "recycling.address", 
+    "fields": {
+      "city": "Stoughton", 
+      "address1": "218 Canton St", 
+      "address2": "", 
+      "longitude": -71.112386000000001, 
+      "state": "MA", 
+      "latitude": 42.126010999999998, 
+      "zip_code": "02072"
     }
   }, 
   {
@@ -148,6 +239,132 @@
     }
   }, 
   {
+    "pk": 11, 
+    "model": "recycling.category", 
+    "fields": {
+      "name": "Unwanted Medications"
+    }
+  }, 
+  {
+    "pk": 12, 
+    "model": "recycling.category", 
+    "fields": {
+      "name": "Adhesives"
+    }
+  }, 
+  {
+    "pk": 13, 
+    "model": "recycling.category", 
+    "fields": {
+      "name": "Aerosol Cans"
+    }
+  }, 
+  {
+    "pk": 14, 
+    "model": "recycling.category", 
+    "fields": {
+      "name": "Antifreeze"
+    }
+  }, 
+  {
+    "pk": 15, 
+    "model": "recycling.category", 
+    "fields": {
+      "name": "Brake Fluid"
+    }
+  }, 
+  {
+    "pk": 16, 
+    "model": "recycling.category", 
+    "fields": {
+      "name": "Car Batterires"
+    }
+  }, 
+  {
+    "pk": 17, 
+    "model": "recycling.category", 
+    "fields": {
+      "name": "Car Fluid"
+    }
+  }, 
+  {
+    "pk": 18, 
+    "model": "recycling.category", 
+    "fields": {
+      "name": "Compact Flourescent Lightbulbs"
+    }
+  }, 
+  {
+    "pk": 19, 
+    "model": "recycling.category", 
+    "fields": {
+      "name": "Degreasers"
+    }
+  }, 
+  {
+    "pk": 20, 
+    "model": "recycling.category", 
+    "fields": {
+      "name": "Fertilizers"
+    }
+  }, 
+  {
+    "pk": 21, 
+    "model": "recycling.category", 
+    "fields": {
+      "name": "Flourescent Tubes"
+    }
+  }, 
+  {
+    "pk": 22, 
+    "model": "recycling.category", 
+    "fields": {
+      "name": "Fungicides"
+    }
+  }, 
+  {
+    "pk": 23, 
+    "model": "recycling.category", 
+    "fields": {
+      "name": "Gasoline and Unwanted Fuels"
+    }
+  }, 
+  {
+    "pk": 24, 
+    "model": "recycling.category", 
+    "fields": {
+      "name": "Herbicides"
+    }
+  }, 
+  {
+    "pk": 25, 
+    "model": "recycling.category", 
+    "fields": {
+      "name": "Items Containing Mercury"
+    }
+  }, 
+  {
+    "pk": 26, 
+    "model": "recycling.category", 
+    "fields": {
+      "name": "Lead Paint Chips"
+    }
+  }, 
+  {
+    "pk": 27, 
+    "model": "recycling.category", 
+    "fields": {
+      "name": "Nail Polish"
+    }
+  }, 
+  {
+    "pk": 28, 
+    "model": "recycling.category", 
+    "fields": {
+      "name": "Photographic Chemicals"
+    }
+  }, 
+  {
     "pk": 1, 
     "model": "recycling.maker", 
     "fields": {
@@ -204,6 +421,14 @@
     }
   }, 
   {
+    "pk": 8, 
+    "model": "recycling.maker", 
+    "fields": {
+      "url": "", 
+      "name": "RedBull N.A., Inc"
+    }
+  }, 
+  {
     "pk": 1, 
     "model": "recycling.product", 
     "fields": {
@@ -256,11 +481,23 @@
     "model": "recycling.product", 
     "fields": {
       "category": 10, 
-      "code": "01795113206", 
+      "code": "017951132063", 
       "name": "Fantasia Laserdisk", 
       "model": "", 
       "maker": 7, 
       "description": "Walt Disney's Masterpiece \"Fantasia\""
+    }
+  }, 
+  {
+    "pk": 6, 
+    "model": "recycling.product", 
+    "fields": {
+      "category": 7, 
+      "code": "611269991000", 
+      "name": "RedBull Can", 
+      "model": "n/a", 
+      "maker": 8, 
+      "description": "8.4 oz can of RedBull"
     }
   }, 
   {
@@ -288,7 +525,10 @@
       "products": [], 
       "address": 2, 
       "email": "", 
-      "categories": []
+      "categories": [
+        5, 
+        6
+      ]
     }
   }, 
   {
@@ -300,7 +540,9 @@
       "products": [], 
       "address": 3, 
       "email": "", 
-      "categories": []
+      "categories": [
+        5
+      ]
     }
   }, 
   {
@@ -313,9 +555,114 @@
       "address": 6, 
       "email": "", 
       "categories": [
-        4, 
-        5, 
+        10
+      ]
+    }
+  }, 
+  {
+    "pk": 5, 
+    "model": "recycling.taker", 
+    "fields": {
+      "name": "Town \ufeffof Wellesley Household Hazardous Waste Collection Program", 
+      "url": "http://www.wellesleyma.gov/Pages/index", 
+      "products": [], 
+      "address": 7, 
+      "email": "", 
+      "categories": [
+        11
+      ]
+    }
+  }, 
+  {
+    "pk": 6, 
+    "model": "recycling.taker", 
+    "fields": {
+      "name": "Public Recepticle near MIT Press Bookstore", 
+      "url": "", 
+      "products": [
+        1, 
         6
+      ], 
+      "address": 8, 
+      "email": "", 
+      "categories": [
+        3, 
+        7
+      ]
+    }
+  }, 
+  {
+    "pk": 7, 
+    "model": "recycling.taker", 
+    "fields": {
+      "name": "James from Cambridge, MA", 
+      "url": "", 
+      "products": [], 
+      "address": 9, 
+      "email": "", 
+      "categories": [
+        10
+      ]
+    }
+  }, 
+  {
+    "pk": 8, 
+    "model": "recycling.taker", 
+    "fields": {
+      "name": "LaserDisk Vault", 
+      "url": "http://www.laserdiscvault.com/index.php?main_page=page&id=6", 
+      "products": [], 
+      "address": 10, 
+      "email": "", 
+      "categories": [
+        10
+      ]
+    }
+  }, 
+  {
+    "pk": 9, 
+    "model": "recycling.taker", 
+    "fields": {
+      "name": "Public Recepticle (outside south side of Microsoft NERD)", 
+      "url": "", 
+      "products": [
+        1
+      ], 
+      "address": 11, 
+      "email": "", 
+      "categories": [
+        7
+      ]
+    }
+  }, 
+  {
+    "pk": 10, 
+    "model": "recycling.taker", 
+    "fields": {
+      "name": "Clean Harbors Environmental Services", 
+      "url": "", 
+      "products": [], 
+      "address": 12, 
+      "email": "", 
+      "categories": [
+        11
+      ]
+    }
+  }, 
+  {
+    "pk": 11, 
+    "model": "recycling.taker", 
+    "fields": {
+      "name": "Veolia \ufeffEnviromental Services", 
+      "url": "", 
+      "products": [
+        3, 
+        4
+      ], 
+      "address": 13, 
+      "email": "", 
+      "categories": [
+        11
       ]
     }
   }
