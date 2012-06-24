@@ -1,5 +1,6 @@
 from django import forms
 from geopy.point import Point
+from haystack.backends import SQ
 from haystack.forms import SearchForm
 from haystack.query import SearchQuerySet
 
@@ -31,11 +32,13 @@ class TakerSearchForm(SearchForm):
         longitude = self.cleaned_data['longitude']
         if not longitude:
             longitude = -71.081157
+        print sqs
         bbox = bounding_box(latitude, longitude, miles)
-        sqs = sqs.filter_or(latitude__gte=bbox[0], latitude__gt=199)
-        sqs = sqs.filter_or(longitude__lte=bbox[1], longitude__gt=199)
-        sqs = sqs.filter_or(latitude__lte=bbox[2], latitude__gt=199)
-        sqs = sqs.filter_or(longitude__gte=bbox[3], longitude__gt=199)
+        sqs = sqs.filter(SQ(latitude__gte=bbox[0]) | SQ(latitude__gt=199))
+        sqs = sqs.filter(SQ(longitude__lte=bbox[1]) | SQ(longitude__gt=199))
+        sqs = sqs.filter(SQ(latitude__lte=bbox[2]) | SQ(latitude__gt=199))
+        sqs = sqs.filter(SQ(longitude__gte=bbox[3]) | SQ(longitude__gt=199))
+        print sqs
         # now filter the results for actual distance matches
         ids = []
         center = Point(latitude, longitude)
