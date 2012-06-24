@@ -164,6 +164,7 @@ LOGGING = {
 HAYSTACK_SITECONF = 'search_sites'
 HAYSTACK_SEARCH_ENGINE = 'whoosh'
 HAYSTACK_WHOOSH_PATH = os.path.dirname(__file__) + '/database/recycling_index'
+HAYSTACK_SEARCH_RESULTS_PER_PAGE = 10
 
 # Needed for django-debug-toolbar
 INTERNAL_IPS = ('127.0.0.1',)

@@ -5,6 +5,7 @@ from django.contrib import admin
 admin.autodiscover()
 
 urlpatterns = patterns('',
+    (r'^recycling/', include('recycling.urls')),
     (r'^search/', include('haystack.urls')),
     # Examples:
     # url(r'^$', 'app.views.home', name='home'),

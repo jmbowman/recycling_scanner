@@ -36,7 +36,7 @@ class Product(models.Model):
     name = models.CharField(max_length=200)
     description = models.CharField(max_length=4000, blank=True)
     category = models.ForeignKey(Category, null=True, blank=True)
-    code = models.PositiveIntegerField(null=True, blank=True)
+    code = models.CharField(max_length=15, blank=True)
     maker = models.ForeignKey(Maker, null=True, blank=True)
     model = models.CharField(max_length=200, blank=True)
 
