@@ -52,4 +52,9 @@ class TakerSearchForm(SearchForm):
         else:
             sqs = SearchQuerySet().none()
 
-        return sqs.load_all()
+        results = list(sqs.load_all())
+        for taker in results:
+            if taker.latitude and taker.longitude:
+                taker.distance = distance_between(center, taker.latitude, taker.longitude)
+        results = sorted(results, key=lambda o: o.distance if hasattr(o, 'distance') else 1000000)
+        return results
